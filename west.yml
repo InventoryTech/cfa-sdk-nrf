@@ -65,7 +65,7 @@ manifest:
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/modules.html
     - name: zephyr
       url: http://github.com/InventoryTech/cfa-nrf-sdk-zephyr
-      revision: cfa-modem-drivers
+      revision: 8c5e2a604f34cce1c20e78fce36ecf834bc532c8
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
